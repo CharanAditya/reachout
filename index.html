@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charan</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="assets/images/CAicon.png" />
+  </head>
+  <body>
+
+    <!-- <div class="underlay">
+      <img src="assets/images/bg1st.jpg">
+    </div> -->
+
+    <nav class="main-nav">
+      <h1>Charan Aditya</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#project" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <section class="hero" id="about">
+      <div class="intro-container">
+        <div class="intro-section">
+          <p class="welcome-guests">Hi There !</p>
+          <p class="changing">
+            I am a <span class="typed-text"></span
+            ><span class="cursor">&nbsp;</span>
+          </p>
+        </div>
+        <div class="bio animate__animated animate__shakeX">
+          <div class="aboutme-section">
+            <h1 class="bio-title">About Me</h1>
+            <p class="bio-text">
+              I am <span class="name">Charan Aditya</span>, an aspiring web developer, eager to grow and
+              learn in the ever-evolving world of web development. Let's
+              collaborate on your next web venture, and together, we'll create
+              something extraordinary.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-img-div">
+        <img
+          src="/assets/images/Charan.png"
+          alt="Charan-aditya"
+          loading="lazy"
+          class="hero-img"
+        />
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/images/html.svg"
+            alt="html"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/images/css.svg"
+            alt="css"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/images/javascript.svg"
+            lat="javascript"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/images/python.svg"
+            alt="python"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/images/java.svg"
+            alt="java"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="socials">
+      <a href="https://www.instagram.com/charan12aditya/" target="_blank">
+        <img src="assets/images/instagram.svg" alt="instagram" class="socicon" loading="lazy">
+      </a>
+
+      <a href="https://www.linkedin.com/in/charan-aditya-ravichandran-490406121/" target="_blank">
+        <img src="assets/images/linkedin.png" alt="linkedin" class="socicon" loading="lazy">
+      </a>
+
+      <a href="#" target="_blank">
+        <img src="assets/images/twitter.svg" alt="twitter" class="socicon" loading="lazy">
+      </a>
+
+      <a href="https://leetcode.com/CharanAditya/" target="_blank">
+        <img src="assets/images/leetcode.png" alt="leetocode" class="socicon" loading="lazy">
+      </a>
+    </div>
+
+    <section class="contact" id="contact">
+      <h2>Let us get in Touch !</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="#">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input type="text" id="email" name="sender-email" 
+              placeholder="Enter your Email ID"
+              class="input-field"
+              required>
+            </div>
+
+            <div class="form-control">
+              <label for="message">Message</label>
+              <input type="text" id="message"
+              name="sender-message" placeholder="Write your message"
+              class="input-field" required>
+            </div>
+
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="copy">
+      <p>&copy; Copyright 2023</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
